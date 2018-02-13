@@ -1,0 +1,29 @@
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.speaker-info > .handle {
+  background: palevioletred;
+  border-radius: 10%;
+  padding-left: 12px;
+  padding-right: 12px; }
+
+.step-headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.step-headline > .heading {
+  align-self: flex-start; }
+
+.step-headline > .heading.-left {
+  text-align: left; }
+
+.step-headline > .summary {
+  align-self: flex-end; }
+
+.step-headline > .summary.-right {
+  text-align: right; }

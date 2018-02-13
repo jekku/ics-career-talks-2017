@@ -1,0 +1,41 @@
+.speaker-info {
+  & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  > .handle {
+    background: palevioletred;
+    border-radius: 10%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.step-headline {
+  & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  > .heading {
+    align-self: flex-start;
+  }
+
+  > .heading.-left {
+    text-align: left;
+  }
+
+  > .summary {
+    align-self: flex-end;
+  }
+
+  > .summary.-right {
+    text-align: right;
+  }
+
+}
